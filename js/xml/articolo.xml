@@ -1,0 +1,85 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>L'attività dei mastri tintori nel Crotonese</title>
+<respStmt>
+<resp>Editore</resp>
+<name xml:id="ASC">Archivio Storico Crotone</name>
+</respStmt>
+<respStmt>
+<resp>Marcatura</resp>
+<name xml:id="ER">Erica Rende</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Archivio storico Crotone</publisher>
+<pubPlace>Crotone</pubPlace>
+<date>2002</date>
+<availability>
+<p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>L'attività dei mastri tintori nel Crotonese</title>
+<author id="AP">Andrea Pesavento</author>
+<publisher>Archivio storico Crotone</publisher>
+<pubPlace>Crotone</pubPlace>
+<date>2002</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<head>L'attività dei mastri tintori nel Crotonese</head>
+<figure>
+<graphic xmlns="http://www.tei-c.org/ns/1.0" url="ghttps://www.archiviostoricocrotone.it/sito/wp-content/uploads/2021/11/001-immagine-garzoni.jpg"/>
+<head>Insegna o «tavoletta» dei tintori di panni, 1522 (restaurata nel 1730). Venezia, Museo Correr (da cini.it).</head>
+</figure>
+<p>Ancora oggi a ricordo dell’attività svolta da questi artigiani troviamo nella toponomastica di Isola Capo Rizzuto “Via Tintori” ed a Petilia Policastro c’è ancora il “Vico Tintori”.</p>
+<figure>
+<graphic xmlns="http://www.tei-c.org/ns/1.0" url="https://www.archiviostoricocrotone.it/sito/wp-content/uploads/2021/11/002-Tintori-al-lavoro-The-British-Library.jpg"/>
+<head>Tintori al lavoro, London, The British Museum Library (da materialdesign.it).</head></figure>
+<div type="sezione" n="1">
+<head>Il diritto della tintoria</head>
+<p>Lo “ius tintorie” era un diritto regio e come gabella regia della tintoria era riscossa direttamente tramite funzionari regi, mentre altre volte in casi particolari era concessa dai sovrani a feudatari, vescovi o a persone particolari.</p>
+<p>Già al tempo dei Normanni nel <date when="1093">1093</date> <rs type="person">Ruggero</rs>, duca di <name type="place" id="CAL">Calabria</name> e di <name type="place">Sicilia</name>, aveva concesso all’arcivescovo di <name type="place" id="CS">Cosenza</name> <rs type="person" id="ARP">Arnulphus</rs> “decimas omnium solidorum judictorum, ac tributorum” a questa concessione seguirà quella fatta dall’imperatore <rs type="person" id="FD">Federico</rs> nel <date when="1093">1212</date> all’arcivescovo <rs type="person" id="L">Luca</rs> e alla chiesa di <name id="CS">Cosenza</name> della sinagoga e dei “Judeos omnes, et tintoriam in civitate <choice><orig ref="#CS">Cusentiae</orig><reg ref="#CS">Cosenza</reg></choice>”.[i] L’industria o arte della tintoria era esercitata dagli Ebrei, i quali ne avevano quasi il monopolio. Sappiamo che in periodo angioino operavano già nella città di Santa Severina dei mastri tintori. Infatti nel <date when="2009">1308</date> il re concedeva in affitto la gabella della tintoria all’Ebreo di Santa Severina Mataluso, previo il pagamento di un annuo canone di otto tarì.[ii]</p>	
+<p>Già al tempo dei Normanni nel <date when="1093">1093</date> <rs type="person">Ruggero</rs>, duca di <name ref="#CAL">Calabria</name> e di Sicilia, aveva concesso all’arcivescovo di <name ref="#CS">Cosenza</name> <name ref="#ARP">Arnulphus</name> “decimas omnium solidorum judictorum, ac tributorum” a questa concessione seguirà quella fatta dall’imperatore <name ref="#FD">Federico</name> nel <date when="1212">1212</date> all’arcivescovo <name ref="#L">Luca</name> e alla chiesa di <name ref="#CS">Cosenza</name> della sinagoga e dei “Judeos omnes, et tintoriam in civitate <choice><orig ref="#CS">Cusentiae</orig><reg ref="#CS">Cosenza</reg></choice>".<note n="1" place="foot" type="biblio-ref" resp="#AP">[i]</note>L’industria o arte della tintoria era esercitata dagli Ebrei, i quali ne avevano quasi il monopolio. Sappiamo che in periodo angioino operavano già nella città di <name type="place" id="SS">Santa Severina</name> dei mastri tintori. Infatti nel <date when="2009">1308</date> il re concedeva in affitto la gabella della tintoria all’Ebreo di <name ref="SS">Santa Severina</name> <rs type="name">Mataluso</rs>, previo il pagamento di un annuo canone di otto tarì.<note n="2" place="foot" type="biblio-ref" resp="#AP">[ii]</note></p>	
+<p>Le concessioni saranno sempre occasionali e temporanee, quasi sempre dettate da condizioni eccezionali, quasi sempre, infatti, la curia regia gestirà in proprio l’esazione di questa gabella tramite i suoi ufficiali. Non mancano in questi anni proteste da parte di Ebrei contro le usurpazioni da parte dei baiuli, i quali tassavano più del dovuto coloro che esercitavano questa arte. È il caso di <name type="place">Rossano</name> dove i baiuli per riscuotere i diritti della gabella detta “madocupia” (industria della tintoria), arrivavano “a togliere pegni ai prestatori”.[iii]</p>
+<p>La regina <rs type="name">Giovanna II.a</rs> il <date when="1417-10-05">5 ottobre 1417</date> confermava all’università e uomini della città di <name type="place" id="CZ">Catanzaro</name> i capitoli concessi il <date when="1417-08-21">21 agosto 1417</date> ai Catanzaresi dal Vicerè del ducato di <name ref="#CAL">Calabria</name> <name type="person">Antomizio de Camponischis</name>. Tra questi: “Item etiam cum reverentia petitur ed vuy segnyore predicto che da mo innanti et perpetuo li Iudei predicti de Catanczaro presenti et futuri siano franchi liberi da la Cabella de la Tentoria et de la raysone annua delo Morthafa et che perpetuo la dicta Cabella de la tentoria et le raysune de la morthafa siano casse annullate et abolite, et ipsi ab eisdem judicentur et sint liberi et immunes …”.[iv]</p>
+<p>Tra i capitoli concessi alla “Universitatis et hominum Civitatis <choice><orig ref="#CZ>">Catançarii</orig><reg ref="#CZ>">Catanzaro</reg></choice>” dati “in Castris n(ost)ris felicibus prope Civitatem n(ost)ram <choice><orig ref="#CZ>">Catanzarii</orig><reg ref="#CZ>">Catanzaro</reg></choice>” il <date when="1445-02-24">24 febbraio 1445</date>, troviamo ancora: “Item considerato magisterio vellutorum unde dicta Civitas nobilitatem consequitur et augetur supplicat dicta universitas quod dignetur ipsa Ma.tas afrancare d(ic)tam artem ognibuscumque iuribus Civie et sp(eci)aliter la tinturia torcitura et exitura Placet Regie Ma.ti.”[v]</p>
+<p>Lo ius tinture rimase regio anche durante il periodo aragonese. Alla metà del Quattrocento tutti gli Ebrei “residentibus nell’ambito del Ducato di <name ref="#CAL">Calabria</name> pagavano il diritto o “cabellam” detta volgarmente de Mortafa ovvero “Iura tintiriae seu Mortafa”.</p>
+<p><date when="1441-12-11">L’undici dicembre 1441</date> il re <rs type="name">Alfonso <name type="place">d’Aragona</name></rs> concedeva al conte <name type="person">Carolo Ruffo</name> di potere riscuotere in alcuni suoi feudi “omnia iura provenientia ex introitibus secretiarum veteris et nove cabellarum serici et gr. sex per unciam nec non ius morthafa Iudeorum percipere”.[vi] Lo stesso re il <date when="1443-11-06">6 novembre 1443</date> confermava al milite Nicholaus de Leofante, regio camerario, la concessione feudale fatta a lui e ai suoi eredi legittimi “in perpetuum” durante l’assedio di <name type="place">Pozzuoli</name>, della “Cabellam seu jus vulgariter dictum la mortafa que seu quod colligitur et laevatur seu colligi et laevari debet per nobis et nostra Curia a Judeis residentibus in ducatu <choice><orig ref="#CAL">Calabriae”</orig><reg ref="#CAL">Calabria</reg></choice>. La concessione era data con l’obbligo per il Leofante di prestare servizio militare o pagare l’adoa.[vii]</p>
+</div>
+<figure>
+<graphic xmlns="http://www.tei-c.org/ns/1.0" url="https://www.archiviostoricocrotone.it/sito/wp-content/uploads/2021/11/003-tintore-medievale.jpeg"/>
+<head>Il tintore, xilografia dal libro di stato di Jost Ammann, 1568, (da watson.ch).</head></figure>
+<div type="sezione2">
+<head>Nel Crotonese</head>
+<p>L’esistenza nel Medioevo di una vasta produzione di seta nel Crotonese e dell’annessa industria della tintoria è evidenziata dai capitoli e grazie concessi il <date when="1441-11-17">17 novembre 1444</date> durante la rivolta del Centelles dal re Alfonso d’Aragona all’università e uomini di Policastro (Petilia Policastro).</p>
+<p>“Item peteno che alcune casate de judei quale sono in la d.ta terra si digne la d.ta V.ra Mae.tà che siano in lo numero deli cristiani che possano gaudere per anni dece non pagando nulla solutione durante lo termine supradicto et passato lo dicto t.po no siano tenuti de pagare si non tari sey per mortofa como era per lo tempo antiquo et cossi ancora che nullo commissario che venesse da parte de la V.ra maiesta no li possa constringere ad nullo altro pagamento. Placet Regie ma.ti tractare d.tos judeos ut aliarum terrarum demanialium”.[viii]</p>
+</div>
+<figure>
+<graphic xmlns="http://www.tei-c.org/ns/1.0" url="https://www.archiviostoricocrotone.it/sito/wp-content/uploads/2021/11/004-trattato-dellarte-della-seta-cap.-24-c19v-fig.17-Del-tingere-il-pagonazzo-di-chermisi_.jpg"/>
+<head>Trattato dell’arte della seta, cap. 24 c19v fig.17, “Del tingere il pagonazzo di-chermisi” (da lacittaimmaginaria.com).</head></figure>
+<div type="sezione3">
+<head>I Tintori</head>
+<p>Pur essendo scarsa la documentazione di quest’arte nel Crotonese, sappiamo che in Santa Severina nella seconda metà del Cinquecento operava una certa Agostina la tingitrice[ix] e che in un apprezzo della città della metà del Seicento è segnalata la presenza di un mastro tintore.[x] Spesso tintori e conciatori fanno parte di una stessa categoria e svolgono lo stesso lavoro anche se in lite tra di loro. Malvisti e sospettati di praticare l’alchimia e l’esoterismo, ed allontanati dall’abitato per la sporcizia e l’aria maleodorante e sgradevole, proveniente dalle vasche, dove avvenivano le operazioni di lavaggio, risciacquo e bollitura, le loro botteghe di concio di solito erano situate sotto ed ai confini dell’abitato, in località dove potevano usufruire di molta acqua, per potere svolgere la loro attività. Da un censimento del <date when="1658">1658</date> della Terra di Melissa sappiamo che le botteghe di questi artigiani erano situate nella “Ruga del Piano d’Abascio”,[xi] nella “Ruga de lo Critazo”[xii] e nella “Ruga de lo piano de Capurella”.[xiii]</p>
+<figure>
+<graphic xmlns="http://www.tei-c.org/ns/1.0" url="hhttps://www.archiviostoricocrotone.it/sito/wp-content/uploads/2021/11/005-trattato-dellarte-della-seta-cap.-30-cc22r-22-v-fig.-21.-Del-tingere-di-tan%C3%A8.jpg"/>
+<head>Trattato dell’arte della seta cap. 30 cc22r-22-v fig.-21, “Del-tingere-di-tanè” (da lacittaimmaginaria.com).</head></figure>
+</div>
+<div type="sezione4">
+<head>Tintori e artisti</head>
+<p>Atti notarili e catasti onciari ci danno la possibilità di gettare qualche luce su questi artigiani, che spesso e volentieri si spostano da paese a paese, per svolgere la loro attività. A Crotone nella prima metà del Settecento le botteghe dei tintori erano situate in parrocchia di Santa Veneranda. Qui aveva la sua bottega il mastro Felice Russo.[xiv] Nel Catasto Onciario del 1743 è descritto come “fuoco acquisito”, cioè forestiero, mastro tintore di anni 55. È sposato con Teresa Spagnolo di anni 50, ha un figlio Domenico applicato allo stesso mestiere di anni 20, ed abita in casa locanda di Pietro Barricellis in parrocchia di Santa Veneranda.[xv]</p>
+<p>Sempre negli stessi anni, nella stessa parrocchia troviamo la bottega del mastro tintore Giuseppe Franco di anni 59. Sposato con Prudenza Maturano di anni 35, ha un figlio Nicola di anni 6, le figlie Ippolita di anni 15, Madalena di anni 11 e Lucrezia di anni 9. Abita in casa propria in parrocchia di Santa Veneranda.[xvi] Il Franco è originario di Cutro, infatti nel catasto onciario di Cutro del 1741 lo troviamo elencato come “artista” tra quei fuochi[xvii] assieme Bruno Vetere, altro mastro tintore o “artista” che è annoverato tra i “forastieri abitanti laici”.[xviii] A Strongoli ha la sua bottega il “sitaiolo” Diego Bolognino[xix] mentre a Belcastro c’è il “mastro di caccia seta e concia di scarpe” Leonardo Lupia.[xx]</p>
+</div>
+<div type="sezione3">
+<head>Note</head>
+<p><note n="1" place="foot" type="biblio-ref" resp="#AP">[i] Ughelli, IX, 191, 208 – 209.</note></p>
+</div>
+</body>
+</text>
+</TEI>
