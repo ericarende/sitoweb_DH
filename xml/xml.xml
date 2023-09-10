@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://example.org"  xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" >
+<rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1800167408">
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1800167408-bibliography-1"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1800167408-cataloguing-agency"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1800167408-1"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/d263ffafd97285c107fc1028f7c18012"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1800167408-legal-situation-proprieta-stato"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1800167408-photographic-documentation-1"/>
+    <dc:subject>complesso pluristratificato</dc:subject>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1800167408-photographic-documentation-2"/>
+    <dc:type>complesso pluristratificato</dc:type>
+    <rdfs:comment>complesso pluristratificato, difensiva, cultuale</rdfs:comment>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/SourceAndDocument/1800167408-source-document-1"/>
+    <a-cat:isDescribedBy rdf:resource="https://w3id.org/arco/resource/CulturalPropertyRecord/1800167408-2"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1800167408-geometry-point"/>
+    <arco:catalogueNumber>00167408</arco:catalogueNumber>
+    <a-cd:explanationNote>Mura di fortificazione difensiva in opera quadrata; cappella a navata unica del 1535</a-cd:explanationNote>
+    <dc:coverage>Isola di Capo Rizzuto (KR)</dc:coverage>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1800167408-heritage-protection-agency"/>
+    <foaf:depiction rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1064869/ICCD14532592_1800167408_FTA_01.jpg"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/9e708b5163ed31b98877c79df6f9323d"/>
+    <a-cat:isDescribedBy rdf:resource="https://w3id.org/arco/resource/CulturalPropertyRecord/1800167408-1"/>
+    <dc:date>post 310 a.C-ante 1535 d.C</dc:date>
+    <dc:title>complesso pluristratificato</dc:title>
+    <a-loc:hasCadastralIdentity rdf:resource="https://w3id.org/arco/resource/CadastralIdentity/1800167408-1"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1800167408-bibliography-2"/>
+    <dc:description>Il complesso si articola in quattro periodi di frequentazione; un quinto, riconducibile alla tarda età del Bronzo (cfr. insediamenti analoghi a Capo Piccolo, Capo Cimiti, Capo Alfieri) è documentato solo da frr. di ceramica d'impasto in seconda giacitura. Questo più antico insediamento è legato alla particolare situazione geografica che permette un doppio approdo ed è da ricollegarsi come quelli prima citati alle necessità di una navigazione di piccolo cabotaggio. Al secondo periodo è ascrivibile un muro di fortificazione appartenente ad un frurion posto n difesa della chora crotoniate in una posizione, come si è detto di particolare valore strategico (approdo naturale) eretto verso la fine del IV secolo a.C. Esso consta di un muro a doppia cortina, formata da blocchi di cm. 129 x 79 x 39 di arenaria, disposti di taglio sul paramento ovest e di testa e taglio alternati sul paramento est, a scacchiera, con gli spazi di risulta riempiti da grossi ciottoli e maglie di arenaria; il collegamento tra i due muri è assicurato da mattoni trasversali, posti ad intervalli regolari di 3.50 m. L'emplecton è costituito da grossi ciottoli e scaglie di arenaria. Alcuni dei blocchi dalla cortina ovest presentano il marchio di cava E. Il muro si imposta direttamente nulla roccia naturale, di cui segue la pendenza, opportunamente regolarizzata; tagli nella roccia mostrano che esso proseguiva anche a sud della Cappella. La tecnica di costruzione è analoga a quella impiegata nelle mura di Velia (cfr. M. Napoli, la ricerca archeologica di Velia, in La parola del Passato, CVIII CX, 1966, pp. 191-226). Il muro, messo in luce da una mareggiata nel 1972, attualmente è conservato per una lunghezza di ca. 40 m ed un’altezza di ca. 4; la larghezza originariamente doveva essere di 3.50 m. Esso infatti presenta un notevole dissesto dovuto alla compressione esercitata dalle strutture medievali ed alla natura del terreno, costituito inferiormente da un deposito dia argilla e superiormente da strati di calcare friabile. Al di sotto della pavimentazione della Cappella sono state trovate dello trecce di muri, reimpieganti alcuni blocchi dotta fortificazione ellenistica, appartenenti alla prima fase edilizia del Castello che in base allo fonti possiamo datare al periodo 1910-1525. La data dell'erezione della piccola cappella è invece ascrivibile con sicurezza al 1535 dalla data realizzata con sassolini scuri allettati nella malta fresca che si legge tuttora lungo il limite est del pavimento. L'edificio è a nave unica, absidato, con due sepolture multiple realizzate ai lati dell'altare, posto al centro dell'abside. I muri perimetrali cono realizzati in rozza opera cementizia che impiega frr. di calcare, ciottoli e laterizi; all'interno le pareti sono scandite da tre lesene in calcare e decorate con un semplice zoccolo dipinto in grigio. Nel muro est sono visibili due archi di scarico; il lato occidentale della cappella è crollato per effetto della stessa mareggiata che ha messo in luce la fortificazione ellenistica. All'ultima frequentazione dell'edificio nono ascrivibili due sepolture multiple che hanno tagliato il pavimento. Comunque esso non dovette avere una vita molto lunga, a giudicare dalle numerose scorrerie turche succedutesi nella seconda metà del XVI sec. (aprile 1536; Barbarossa; 1544, 1548, Dragut 1558: Mustafà Pascià) e se nel 1604 la popolazione di Castella ora ristretta a sole 17 persone</dc:description>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/d263ffafd97285c107fc1028f7c18012"/>
+    <dcterms:bibliographicCitation>bibliografia di confronto: Napoli Mario - 1991</dcterms:bibliographicCitation>
+    <rdfs:label xml:lang="en">complesso pluristratificato - Isola di Capo Rizzuto (KR)  (IV a.C.-XVI d.C)</rdfs:label>
+    <rdfs:label xml:lang="it">complesso pluristratificato - Isola di Capo Rizzuto (KR)  (IV a.C.-XVI d.C)</rdfs:label>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1800167408-photographic-documentation-3"/>
+    <pico:preview rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1064869/ICCD14532592_1800167408_FTA_01.jpg"/>
+    <a-cd:hasSurvey rdf:resource="https://w3id.org/arco/resource/ArchaeologicalExcavation/1800167408-survey-1"/>
+    <dc:rights>proprietà Stato</dc:rights>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/b3a0cebbbd1802b3c9d586f2ccd64909"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1800167408"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordCA/1800167408"/>
+    <foaf:depiction rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1064869/ICCD14532595_1800167408_FTA_02.jpg"/>
+    <dcterms:bibliographicCitation>bibliografia specifica: Lattanzi Elena - 1982</dcterms:bibliographicCitation>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordCA/1800167408"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1800167408-bibliography-3"/>
+    <arco:regionIdentifier>18</arco:regionIdentifier>
+    <dc:subject rdf:resource="http://culturaitalia.it/pico/thesaurus/4.1#aree_archeologiche"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1800167408-geometry-point-1"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/9e708b5163ed31b98877c79df6f9323d"/>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1800167408-current"/>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordCA/1800167408"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <a-dd:hasFunctionalPurpose rdf:resource="https://w3id.org/arco/resource/FunctionalPurpose/difensiva-cultuale"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1800167408-1"/>
+    <a-dd:hasConservationStatus rdf:resource="https://w3id.org/arco/resource/ConservationStatus/1800167408-conservation-status-1"/>
+    <pico:preview rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1064869/ICCD14532596_1800167408_FTA_03.jpg"/>
+    <arco:uniqueIdentifier>1800167408</arco:uniqueIdentifier>
+    <dc:identifier>1800167408</dc:identifier>
+    <pico:preview rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1064869/ICCD14532595_1800167408_FTA_02.jpg"/>
+    <core:description>Il complesso si articola in quattro periodi di frequentazione; un quinto, riconducibile alla tarda età del Bronzo (cfr. insediamenti analoghi a Capo Piccolo, Capo Cimiti, Capo Alfieri) è documentato solo da frr. di ceramica d'impasto in seconda giacitura. Questo più antico insediamento è legato alla particolare situazione geografica che permette un doppio approdo ed è da ricollegarsi come quelli prima citati alle necessità di una navigazione di piccolo cabotaggio. Al secondo periodo è ascrivibile un muro di fortificazione appartenente ad un frurion posto n difesa della chora crotoniate in una posizione, come si è detto di particolare valore strategico (approdo naturale) eretto verso la fine del IV secolo a.C. Esso consta di un muro a doppia cortina, formata da blocchi di cm. 129 x 79 x 39 di arenaria, disposti di taglio sul paramento ovest e di testa e taglio alternati sul paramento est, a scacchiera, con gli spazi di risulta riempiti da grossi ciottoli e maglie di arenaria; il collegamento tra i due muri è assicurato da mattoni trasversali, posti ad intervalli regolari di 3.50 m. L'emplecton è costituito da grossi ciottoli e scaglie di arenaria. Alcuni dei blocchi dalla cortina ovest presentano il marchio di cava E. Il muro si imposta direttamente nulla roccia naturale, di cui segue la pendenza, opportunamente regolarizzata; tagli nella roccia mostrano che esso proseguiva anche a sud della Cappella. La tecnica di costruzione è analoga a quella impiegata nelle mura di Velia (cfr. M. Napoli, la ricerca archeologica di Velia, in La parola del Passato, CVIII CX, 1966, pp. 191-226). Il muro, messo in luce da una mareggiata nel 1972, attualmente è conservato per una lunghezza di ca. 40 m ed un’altezza di ca. 4; la larghezza originariamente doveva essere di 3.50 m. Esso infatti presenta un notevole dissesto dovuto alla compressione esercitata dalle strutture medievali ed alla natura del terreno, costituito inferiormente da un deposito dia argilla e superiormente da strati di calcare friabile. Al di sotto della pavimentazione della Cappella sono state trovate dello trecce di muri, reimpieganti alcuni blocchi dotta fortificazione ellenistica, appartenenti alla prima fase edilizia del Castello che in base allo fonti possiamo datare al periodo 1910-1525. La data dell'erezione della piccola cappella è invece ascrivibile con sicurezza al 1535 dalla data realizzata con sassolini scuri allettati nella malta fresca che si legge tuttora lungo il limite est del pavimento. L'edificio è a nave unica, absidato, con due sepolture multiple realizzate ai lati dell'altare, posto al centro dell'abside. I muri perimetrali cono realizzati in rozza opera cementizia che impiega frr. di calcare, ciottoli e laterizi; all'interno le pareti sono scandite da tre lesene in calcare e decorate con un semplice zoccolo dipinto in grigio. Nel muro est sono visibili due archi di scarico; il lato occidentale della cappella è crollato per effetto della stessa mareggiata che ha messo in luce la fortificazione ellenistica. All'ultima frequentazione dell'edificio nono ascrivibili due sepolture multiple che hanno tagliato il pavimento. Comunque esso non dovette avere una vita molto lunga, a giudicare dalle numerose scorrerie turche succedutesi nella seconda metà del XVI sec. (aprile 1536; Barbarossa; 1544, 1548, Dragut 1558: Mustafà Pascià) e se nel 1604 la popolazione di Castella ora ristretta a sole 17 persone</core:description>
+    <foaf:depiction rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1064869/ICCD14532596_1800167408_FTA_03.jpg"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1800167408-1"/>
+    <dcterms:bibliographicCitation>bibliografia specifica: Lattanzi Elena - 84 st. 86</dcterms:bibliographicCitation>
+  </rdf:Description>
+</rdf:RDF>

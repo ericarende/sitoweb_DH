@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="img/logologo" href="img/logologo.png">
+  <title>Catalogo</title>
+  <link rel="stylesheet" href="stile/stile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- inizio parte header --> 
+  <header>
+    <div class="logo" id="logo">
+      <img src="img/logologo.png" alt="Logo del portale">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Cerca...">
+      <button type="submit">Cerca</button>
+    </div>
+    <nav>
+      <ul class="navbar">
+        <li>
+          <a href="index.htm">Home</a>
+        </li>
+        <li>
+          <a href="index.htm#right-section">Chi Siamo</a>
+        </li>
+        <li>
+          <a href="#">Natura</a>
+          <div class="dropdown">
+            <a href="#">Riserve naturali protette</a>
+            <a href="#">Parchi Archeologici</a>
+            <a href="#">Spiagge</a>
+            <a href="#">Laghi</a>
+            <a href="#">Fiumi</a>
+            <a href="#">Giardini</a>
+          </div>
+        </li>
+        <li>
+          <a href="items.htm" class="active">Arte e Architettura</a>
+          <div class="dropdown">
+            <a href="#">Chiese e Castelli</a>
+            <a href="#">Parchi Archeologigi</a>
+            <a href="#">Musei</a>
+            <a href="#">Centri Storici</a>
+            <a href="#">Piazze</a>
+          </div>
+        </li>
+        <li>
+          <a href="#">Cibo</a>
+          <div class="dropdown">
+            <a href="#">Esperienze enogastronomiche</a>
+            <a href="#">Piatti tipici</a>
+          </div>
+        </li>
+        <li>
+          <a href="#">Eventi</a>
+          <div class="dropdown">
+            <a href="#">Eventi culturali</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="container2">
+    <div class="left-section2">
+      <div class="slideshow-container2">
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">1 / 5</div>
+          <img src="img/a.jpg" style="width:60%">
+        </div>
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">2 / 5</div>
+          <img src="img/b.jpg" style="width:60%">
+        </div>
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">3 / 5</div>
+          <img src="img/c.jpg" style="width:60%">
+        </div>
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">4 / 5</div>
+          <img src="img/d.jpg" style="width:60%">
+        </div>
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">5 / 5</div>
+          <img src="img/e.jpg" style="width:60%">
+        </div>
+      </div>
+    </div>
+
+    <script>
+let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides2");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          slides[slideIndex - 1].style.display = "block";
+          setTimeout(showSlides, 900); // Change image every 2 seconds
+        }
+</script>
+<!-- fine parte sinistra (carosello) --> 
+
+<!-- inizio parte destra (titolo) -->
+    <div id="right-section2" class="right-section2">
+      <div class="catalog-title">
+        <h1>Arte e Architettura</h1>
+      </div>
+    </div>
+  </section>
+<!-- fine parte destra (titolo) -->
+
+  <section class="corpo">
+
+<!-- inizio sidebar sx -->
+    <div class="sidebar">
+      <div class="colore"></div>
+      <div class="ordina">
+        <div class="filtra-nome">
+          <h3>Cerca per nome:</h3>
+          <input type="text" id="searchInput" placeholder="Cerca...">
+          <script>
+            var searchInput = document.getElementById("searchInput");
+            var cards = document.getElementsByClassName("card");
+
+            searchInput.addEventListener("input", function() {
+              var searchKeyword = this.value.toLowerCase();
+
+              for (var i = 0; i < cards.length; i++) {
+                var card = cards[i];
+                var title = card.querySelector("h3").innerText.toLowerCase();
+                var description = card.querySelector("p").innerText.toLowerCase();
+
+                if (title.includes(searchKeyword) || description.includes(searchKeyword)) {
+                  card.style.display = "block";
+                } else {
+                  card.style.display = "none";
+                }
+              }
+            });
+          </script>
+        </div>
+        <h2>Ordina per:</h2>
+        <button>Ordine Cronologico</button>
+        <button>Ordine Alfabetico (A-Z)</button>
+        <button>Ordine Alfabetico (Z-A)</button>
+
+        <div class="filtra">
+          <h2>Filtra per:</h2>
+
+          <div class="dropdowna">
+            <button onclick="myFunction('dropdowna1')" class="dropbtna">Date</button>
+            <div id="dropdowna1" class="dropdowna-content">
+              <br><label><input type="checkbox" value="a.C.">a.C</label></br>
+              <br><label><input type="checkbox" value="d.C.">d.C</label></br>
+            </div>
+          </div>
+
+          <div class="dropdowna">
+            <button onclick="myFunction('dropdowna2')" class="dropbtna">Luoghi</button>
+            <div id="dropdowna2" class="dropdowna-content">
+              <br><label><input type="checkbox" value="Crotone">Crotone</label><br>
+              <br><label><input type="checkbox" value="Caccuri">Caccuri</label><br>
+              <br><label><input type="checkbox" value="Carfizzi">Carfizzi</label></br>
+              <br><label><input type="checkbox" value="Belvedere di Spinello">Belvedere di Spinello</label><br>
+              <br><label><input type="checkbox" value="Casabona">Casabona</label><br>
+              <br><label><input type="checkbox" value="Castelsilano">Castelsilano</label></br>
+              <br><label><input type="checkbox" value="Cerenzia">Cerenzia</label><br>
+              <br><label><input type="checkbox" value="Cirò">Cirò</label><br>
+              <br><label><input type="checkbox" value="Cirò Marina">Cirò Marina</label></br>
+              <br><label><input type="checkbox" value="Cotronei">Cotronei</label><br>
+              <br><label><input type="checkbox" value="Crucoli">Crucoli</label><br>
+              <br><label><input type="checkbox" value="Cutro">Cutro</label></br>
+              <br><label><input type="checkbox" value="Isola di Capo Rizzuto">Isola di Capo Rizzuto</label><br>
+              <br><label><input type="checkbox" value="Melissa">Melissa</label><br>
+              <br><label><input type="checkbox" value="Mesoraca">Mesoraca</label></br>
+              <br><label><input type="checkbox" value="Pallagorio">Pallagorio</label><br>
+              <br><label><input type="checkbox" value="Petilia Policastro">Petilia Policastro</label><br>
+              <br><label><input type="checkbox" value="Rocca di Neto">Rocca di Neto</label><br>
+              <br><label><input type="checkbox" value="Roccabernarda">Roccabernarda</label></br>
+              <br><label><input type="checkbox" value="Crotone">Crotone</label><br>
+              <br><label><input type="checkbox" value="San Mauro Marchesato">San Mauro Marchesato</label><br>
+              <br><label><input type="checkbox" value="San Nicola dell'Alto">San Nicola dell'Alto</label></br>
+              <br><label><input type="checkbox" value="Santa Severina">Santa Severina</label></br>
+              <br><label><input type="checkbox" value="Savelli">Savelli</label><br>
+              <br><label><input type="checkbox" value="Scandale">Scandale</label><br>
+              <br><label><input type="checkbox" value="Strongoli">Strongoli</label><br>
+              <br><label><input type="checkbox" value="Umbriatico">Umbriatico</label><br>
+              <br><label><input type="checkbox" value="Verzino">Verzino</label><br>
+            </div>
+          </div>
+
+          <div class="dropdowna">
+            <button onclick="myFunction('dropdowna3')" class="dropbtna">Temi</button>
+            <div id="dropdowna3" class="dropdowna-content">
+              <br><label><input type="checkbox" value="Antichità Greca">Antichità Greca</label></br>
+              <br><label><input type="checkbox" value="Bruttium">Bruttium</label></br>
+              <br><label><input type="checkbox" value="Dominazione Spagnola">Dom. Spagnola</label></br>
+              <br><label><input type="checkbox" value="Età Moderna">Età Moderna</label></br>
+              <br><label><input type="checkbox" value="Novecento">Novecento</label></br>
+            </div>
+          </div>
+
+          <button>Filtra</button>
+        </div>
+        <script>
+          function myFunction(dropdownId) {
+            var dropdown = document.getElementById(dropdownId);
+            dropdown.classList.toggle("show");
+          }
+
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtna')) {
+              var dropdowns = document.getElementsByClassName("dropdowna-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+        </script>
+      </div>
+    </div>
+<!-- fine sidebar sx -->
+
+<!-- inizio sezione centrale (cards)-->
+    <div class="content">
+      <nav class="sub-navbar">
+        <ul>
+          <li><a href="#" id="sub-navbar" class="active">Tutti</a></li>
+          <li><a href="#">Chiese e Castelli</a></li>
+          <li><a href="#">Parchi Archeologici</a></li>
+          <li><a href="#">Musei</a></li>
+          <li><a href="#">Centri Storici</a></li>
+          <li><a href="#">Piazze</a></li>
+        </ul>
+      </nav>
+
+      <div class="cards" class="row">
+        <div class="card">
+          <div class="image-container">
+            <img src="img/uno.jpg" alt="complesso pluristratificato, post 310 a.C - anre 1535 d.C., Isola di Caporizzuto">
+          </div>
+          <div class="card-content" id="sub-navbar">
+            <h3>Complesso pluristratificato</h3>
+            <p>- Isola di Capo Rizzuto (KR) (IV a.C.-XVI d.C)-</p>
+            <a href="item.htm#item"><button>Tutti i metadati</button></a>
+          </div>
+        </div>
+        <div class="card card-image">
+          <div class="image-container">
+            <img src="img/monetatripode.jpeg" alt="Monnaie : Statère, Argent, Crotone, Bruttium, Bibliothèque nationale de France">
+          </div>
+          <div class="card-content">
+            <h3>Moneta</h3>
+            <p>1 valuta; 8,09 g; vuoto circolare; greco antico; VII secolo a.C. - III secolo d.C; Stato, Argento, Crotone, Bruttium.</p>
+            <p>ISTITUZIONE DI CONSERVAZIONE:<a href="https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b11315838m">Bibliothèque nationale de France</a></p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card card-image">
+          <div class="image-container">
+            <img src="img/ICCD13729017_S1781800157796.jpg" alt="Chiesa Arcipretale, ISOLA DI CAPO RIZZUTO, XVI - XVII, Piazza Duomo, proprietà Ente religioso cattolico">
+          </div>
+          <div class="card-content">
+            <h3>Chiesa Arcipretale</h3>
+            <p>chiesa-arcipretale sec. XVI - XVII, architettura, Piazza Duomo, Isola di Capo Rizzuto.</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="img/ICCD12075447_7_00140234.jpg" alt="Statuetta, Testa fittile femminile con polos e fiori campanulati, statua, sec. IV a.C, Santa Severina">
+          </div>
+          <div class="card-content">
+            <h3>Statuetta, testa fittile femminile con polos e fiori campanulati</h3>
+            <p>statuetta di argilla/ a matrice, COROPLASTICA, reperto archeologico, sec. IV a.C, Santa Severina (KR).</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="img/ICCD15433019_2280284.jpg" alt="insediamento fortificato, Crotone, V sec. a.C">
+          </div>
+          <div class="card-content">
+            <h3>Insediamento fortificato</h3>
+            <p>insediamento fortificato, Colonna di Capo Colonna (SECOLI/ V a.C), bene archeologico.</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="img/ICCD3531677_00003968.jpg" alt="Santi Cosma e Damiano (dipinto, opera isolata) - ambito Italia meridionale (sec. XVIII), Crotone">
+          </div>
+          <div class="card-content">
+            <h3>Santi Cosma e Damiano</h3>
+            <p>(dipinto, opera isolata) - ambito Italia meridionale (sec. XVIII) -</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="img/moneta5.jpeg" alt="Monnaie : Statère, Argent, Crotone, Bruttium, Bibliothèque nationale de France">
+          </div>
+          <div class="card-content">
+            <h3>Moneta</h3>
+            <p>1 valuta; 7,77 g; vuoto circolare; greco antico; VII secolo a.C. - III secolo d.C; Stato, Argento, Crotone, Bruttium.</p>
+            <p>ISTITUZIONE DI CONSERVAZIONE:<a href="https://gallica.bnf.fr/ark:/12148/btv1b113158570#">Bibliothèque nationale de France</a></p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="img/ICCD15418671_1800174383_foto01.jpg" alt="centro storico, costiero, murato, portuale, Crotone, (VII-II a.C)">
+          </div>
+          <div class="card-content">
+            <h3>Centro storico, Crotone</h3>
+            <p>centro storico, costiero, murato, portuale, Crotone, Cotrone (denominazione storica), Croto (denominazione storica, età romana), Kroton (denominazione originaria, età greca) (VII-II a.C).</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card card-image">
+          <div class="image-container">
+            <img src="img/ICCD15469778_1800174396_foto01.jpg" alt="centro storico, di crinale, collinare, agricolo, Cutro, Kyterion (denominazione greca) (XVIII)">
+          </div>
+          <div class="card-content">
+            <h3>Centro storico, Cutro</h3>
+            <p>centro storico, di crinale, collinare, agricolo, Cutro, Kyterion (denominazione greca) (XVIII).</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="img/monetadonna.jpeg" alt="Moneta : Stato, Argento, Crotone, Bruttium">
+          </div>
+          <div class="card-content">
+            <h3>Moneta</h3>
+            <p>1 valuta; 8,32 g; vuoto circolare; VII secolo a.C. - III secolo d.C; Stato, Argento, Crotone, Bruttium.</p>
+            <p>ISTITUZIONE DI CONSERVAZIONE:<a href="https://gallica.bnf.fr/ark:/12148/btv1b113158570#">Bibliothèque nationale de France</a></p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card card-image">
+          <div class="image-container">
+            <img src="img/verzinod.jpg" alt="ccentro storico, di crinale, collinare, agricolo, Verzino (VI-IX)">
+          </div>
+          <div class="card-content">
+            <h3>Centro storico, Verzino</h3>
+            <p>ccentro storico di crinale, collinare, agricolo, zona abitata fin da tempi preistorici, come testimoniano i reperti, dell’età della pietra, rinvenuti nei suoi dintorni, viene da alcuni identificata con l’antica Vertinae, fondata da Filottete, e da altri ritenuta di origine enotra.</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="img/ICCD3531549_00048128.jpg" alt="calice, opera isolata - bottega romana, bottega tedesca (metà sec. XVIII), Crotone">
+          </div>
+          <div class="card-content">
+            <h3>Calice, opera isolata</h3>
+            <p>bottega romana, bottega tedesca (metà sec. XVIII).</p>
+            <button>Tutti i metadati</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="previous-next">
+        <button>Precedente</button>
+        <button>Successivo</button>
+      </div>
+    </div>
+  </section>
+<!-- fine sezione centrale (cards)-->
+
+  <a href="#logo"><button id="top-button">Top</button></a>
+
+<!-- inizio footer -->
+ <footer>
+  <section class="last-section">
+    <div class="footer-columns">
+      <div class="first-column">
+        <h3>In breve</h3>
+        <p>Nella provincia di Crotone, si estende un vasto comprensorio che abbraccia ventisette Comuni. Il progetto <i>visiting</i> Crotone, promosso dal <b>Digital Humanities Advanced Research Center</b> (DH.ARC) dell'Università di Bologna, si propone di preservare e valorizzare il <b>patrimonio culturale</b> del Marchesato conservato in istituti culturali nazionali e internazionali.</p>
+      </div>
+
+      <div class="second-column">
+        <h3>Sezioni utili</h3>
+        <ul class="sezione-footer">
+          <li class="sezione-footer"><a href="#">Chi siamo</a></li>
+          <li class="sezione-footer"><a href="#">Servizi</a></li>
+          <li class="sezione-footer"><a href="#">Collabora con noi</a></li>
+          <li class="sezione-footer"><a href="#">Credits | License </a></li>
+        </ul>
+      </div>
+
+      <div class="third-column">
+        <h3>Aiuto</h3>
+        <ul>
+          <li class="sezione-footer"><a href="">Aiuto</a></li>
+          <li class="sezione-footer"><a href="">Termini di utilizzo</a></li>
+          <li class="sezione-footer"><a href="">Informativa sulla privacy</a></li>
+          <li class="sezione-footer"><a href="">Accessibilità</a></li>
+          <li class="sezione-footer"><a href="">Cookie</a></li>
+          <li class="sezione-footer"><a href="">Domande frequenti</a></li>
+        </ul>
+      </div>
+    </div>
+</section>
+      <!--Sezione per social-->
+      <div class="social-text">
+        <h3>Contatti</h3>
+      </div>
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+    <hr class="footer">
+
+    <!--Riga finale-->
+    <div class=riga-finale>
+      <p>&copy; Copyright Erica Rende, 2023 - Corso di
+        <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/423307" target="_blank"
+          title="Apre la pagina del corso di DH in una nuova finestra">Digital Humanities e Patrimonio culturale</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <!-- fine footer -->
+</body>
+</html>
